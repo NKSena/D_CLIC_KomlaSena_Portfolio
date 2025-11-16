@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_NORDJOE Komla Sena</title>
+    <link rel="stylesheet" href="projetfinal.css">
+</head>
+
+<body>
+
+    <!-- ---- HEADER / NAV ---- -->
+    <header>
+        <div class="logo">NORDJOE <span> Komla Séna</span></div>
+
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#apropos">À propos</a>
+            <a href="#projets">Projets</a>
+            <a href="#competences">Compétences</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ---- SECTION ACCUEIL ---- -->
+    <section id="accueil" class="hero">
+        <div class="hero-text">
+            <p>Je suis <span class="blue">NORDJOE Komla Sena</span>, Passionné par la sécurité informatique et le développement web, j’explore les coulisses du code pour comprendre ce qui le rend fiable, performant et sécurisé</p>
+            <a href="#projets" class="btn">Voir mes projets</a>
+        </div>
+
+        <div class="hero-img">
+            <img src="MaPhoto1.png" alt="Photo du développeur">
+        </div>
+    </section>
+
+    <!-- ---- SECTION A PROPOS ---- -->
+    <section id="apropos">
+        <h2>À propos</h2>
+        <div class="apropos-container">
+            <div class="text">
+                <p>Je m'appelle <span class="blue">NORDJOE Komla Sena</span>, passionné par l'informatique surtout la sécurité et la création de sites web modernes et interactifs.</p>
+
+                <p>Je suis enseignant de mathématiques en reconversion, engagé dans une formation en sécurité informatique, et actuellement étudiant en <span class="blue">développement web</span>, je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+
+                <p>J’adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+
+                <a href="CV_NORDJOEKomlaSéna.pdf" class="btn">Télécharger mon CV</a>
+            </div>
+
+            <div class="photo">
+                <img src="MaPhoto3.png" alt="photo de profil">
+            </div>
+        </div>
+    </section>
+
+    <!-- ---- SECTION PROJETS ---- -->
+    <section id="projets">
+        <h2>Mes Projets</h2>
+
+        <div class="projets-grid">
+
+            <div class="card">
+                <p>Un mini-jeu interactif en JavaScript utilisant les événements DOM.</p>
+                <span>#html #css #js</span>
+                <button class="btn-small">Voir</button>
+            </div>
+
+            <div class="card">
+                <p>Un site vitrine moderne conçu en HTML/CSS.</p>
+                <span>#html #css</span>
+                <button class="btn-small">Voir</button>
+            </div>
+
+            <div class="card">
+                <p>Une application web simple en JavaScript (CRUD).</p>
+                <span>#js #dom</span>
+                <button class="btn-small">Voir</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ---- SECTION COMPETENCES ---- -->
+    <section id="competences">
+        <h2>Mes Compétences</h2>
+
+        <div class="skills">
+
+            <div class="box">
+                <h3>Soft Skills</h3>
+                <p>Gestion de projet</p><div class="bar"><span style="width:75%"></span></div>
+                <p>Résolution de problème</p><div class="bar"><span style="width:85%"></span></div>
+                <p>Adaptabilité</p><div class="bar"><span style="width:90%"></span></div>
+            </div>
+
+            <div class="box">
+                <h3>Hard Skills</h3>
+                <p>HTML</p><div class="bar"><span style="width:95%"></span></div>
+                <p>CSS</p><div class="bar"><span style="width:80%"></span></div>
+                <p>JavaScript</p><div class="bar"><span style="width:70%"></span></div>
+				<p>VS Code</p><div class="bar"><span style="width:65%"></span></div>
+                <p>Notepad</p><div class="bar"><span style="width:85%"></span></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ---- SECTION CONTACT ---- -->
+    <section id="contact" class="contact">
+
+        <h2>Vous avez un <span class="blue">projet en tête ?</span><br>N’hésitez pas à me <span class="blue">contacter</span></h2>
+
+        <form id="contactForm">
+            <input type="text" id="prenom" placeholder="Votre prénom">
+            <input type="text" id="nom" placeholder="Votre nom">
+            <input type="text" id="sujet" placeholder="Votre sujet">
+            <textarea id="message" placeholder="Écrivez votre message ici !"></textarea>
+
+            <button class="btn">Envoyer</button>
+        </form>
+
+    </section>
+
+    <!-- ---- FOOTER ---- -->
+    <footer>
+        Designed by <span class="blue">Komla Séna</span> | Tous droits réservés © 2025
+    </footer>
+
+<script src="projetfinal.js"></script>
+</body>
+</html>

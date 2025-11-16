@@ -1,0 +1,308 @@
+/* --------------------------
+   RESET
+---------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Couleur principale */
+.blue {
+    color: #00c9b7;
+}
+
+/* --------------------------
+   HEADER
+---------------------------*/
+header {
+    width: 100%;
+    background: #0d0d0d;
+    padding: 18px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+header .logo span {
+    color: #00c9b7;
+}
+
+nav a {
+    margin-left: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #00c9b7;
+}
+
+/* Pour espacer le contenu du header */
+section {
+    padding: 120px 80px 80px;
+}
+
+/* --------------------------
+   SECTION HERO
+---------------------------*/
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    width: 55%;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}.hero-text .btn {
+    margin-top: 25px; /* tu peux augmenter si tu veux */
+    display: inline-block;
+}
+
+
+.hero .btn {
+    background: #00c9b7;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.hero .btn:hover {
+    background: #00a596;
+}
+
+.hero-img img {
+    width: 400px;
+}
+
+/* --------------------------
+   SECTION A PROPOS
+---------------------------*/
+#apropos {
+    background: #f2f4f8;
+    text-align: center;
+}
+
+#apropos h2 {
+    margin-bottom: 40px;
+    color: #00c9b7;
+}
+
+.apropos-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.apropos-container .text {
+    width: 60%;
+    font-size: 15px;
+}
+
+.apropos-container .text p {
+    margin-bottom: 18px;
+}
+
+.apropos-container .btn {
+    background: #00c9b7;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.apropos-container .btn:hover {
+    background: #00a596;
+}
+
+.apropos-container .photo img {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    border: 4px solid #00c9b7;
+}
+
+/* --------------------------
+   SECTION PROJETS
+---------------------------*/
+#projets {
+    text-align: center;
+}
+
+#projets h2 {
+    margin-bottom: 40px;
+    color: #00c9b7;
+}
+
+.projets-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 8px 14px rgba(0,0,0,0.08);
+}
+
+.card p {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.card span {
+    display: block;
+    margin-bottom: 15px;
+    color: #777;
+    font-size: 13px;
+}
+
+.btn-small {
+    background: #00c9b7;
+    border: none;
+    padding: 8px 18px;
+    color: white;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-small:hover {
+    background: #00a596;
+}
+
+/* --------------------------
+   SECTION COMPETENCES
+---------------------------*/
+#competences h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #00c9b7;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: auto;
+}
+
+.skills .box {
+    width: 45%;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 8px 14px rgba(0,0,0,0.08);
+}
+
+.skills .box h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.skills .box p {
+    margin: 12px 0 5px;
+    font-size: 15px;
+}
+
+.bar {
+    background: #ddd;
+    width: 100%;
+    height: 7px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.bar span {
+    display: block;
+    height: 7px;
+    background: #00c9b7;
+    border-radius: 10px;
+}
+
+/* --------------------------
+   SECTION CONTACT
+---------------------------*/
+.contact {
+    background: #0d0d0d;
+    color: white;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.contact form {
+    width: 60%;
+    margin: auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.contact button {
+    background: #00c9b7;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #00a596;
+}
+
+/* --------------------------
+   FOOTER
+---------------------------*/
+footer {
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+    color: #444;
+    margin-top: 40px;
+}
